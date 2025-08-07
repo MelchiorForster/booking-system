@@ -67,14 +67,14 @@ src/
 
 ## 💼 Services
 
-| Service | Preis | Kapazität | Features |
-|---------|-------|-----------|----------|
-| Meeting Räume | ab 50€/Stunde | bis 20 Personen | Beamer, WLAN, Klimaanlage |
-| Beratungstermine | ab 80€/Stunde | bis 4 Personen | Vertraulich, flexibel |
-| Event Locations | ab 200€/Tag | bis 100 Personen | Sound-System, Catering |
-| Schulungsräume | ab 120€/Tag | bis 30 Personen | Interaktive Whiteboards |
-| Fitness Studios | ab 30€/Stunde | bis 8 Personen | Moderne Geräte, Umkleiden |
-| Kreativräume | ab 40€/Stunde | bis 15 Personen | Natürliches Licht, Materialien |
+| Service          | Preis         | Kapazität        | Features                       |
+| ---------------- | ------------- | ---------------- | ------------------------------ |
+| Meeting Räume    | ab 50€/Stunde | bis 20 Personen  | Beamer, WLAN, Klimaanlage      |
+| Beratungstermine | ab 80€/Stunde | bis 4 Personen   | Vertraulich, flexibel          |
+| Event Locations  | ab 200€/Tag   | bis 100 Personen | Sound-System, Catering         |
+| Schulungsräume   | ab 120€/Tag   | bis 30 Personen  | Interaktive Whiteboards        |
+| Fitness Studios  | ab 30€/Stunde | bis 8 Personen   | Moderne Geräte, Umkleiden      |
+| Kreativräume     | ab 40€/Stunde | bis 15 Personen  | Natürliches Licht, Materialien |
 
 ## 🎨 Design Features
 
@@ -87,9 +87,11 @@ src/
 ## 📱 Screenshots
 
 ### Desktop
+
 ![Desktop View](https://via.placeholder.com/800x500/f8fafc/334155?text=Desktop+View)
 
 ### Mobile
+
 ![Mobile View](https://via.placeholder.com/400x700/f8fafc/334155?text=Mobile+View)
 
 ## 🔮 Roadmap
@@ -120,6 +122,7 @@ Dieses Projekt ist unter der MIT License lizenziert - siehe [LICENSE](LICENSE) D
 ## 👨‍💻 Entwickler
 
 **Ihr Name**
+
 - GitHub: [@IhrUsername](https://github.com/IhrUsername)
 - LinkedIn: [Ihr LinkedIn Profil](https://linkedin.com/in/ihr-profil)
 - Portfolio: [Ihre Website](https://ihre-website.de)

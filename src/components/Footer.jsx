@@ -1,8 +1,8 @@
-import React from 'react';
-import styled from 'styled-components';
+import React from "react";
+import styled from "styled-components";
 
 const FooterContainer = styled.footer`
-  background: ${props => props.theme.colors.gray[900]};
+  background: ${(props) => props.theme.colors.gray[900]};
   color: white;
   padding: 3rem 0 1rem;
   margin-top: auto;
@@ -23,29 +23,30 @@ const FooterGrid = styled.div`
 
 const FooterSection = styled.div`
   h3 {
-    color: ${props => props.theme.colors.primary};
+    color: ${(props) => props.theme.colors.primary};
     font-size: 1.2rem;
     margin-bottom: 1rem;
   }
-  
-  p, a {
-    color: ${props => props.theme.colors.gray[300]};
+
+  p,
+  a {
+    color: ${(props) => props.theme.colors.gray[300]};
     line-height: 1.6;
     text-decoration: none;
     display: block;
     margin-bottom: 0.5rem;
-    
+
     &:hover {
-      color: ${props => props.theme.colors.primary};
+      color: ${(props) => props.theme.colors.primary};
     }
   }
 `;
 
 const FooterBottom = styled.div`
-  border-top: 1px solid ${props => props.theme.colors.gray[700]};
+  border-top: 1px solid ${(props) => props.theme.colors.gray[700]};
   padding-top: 1rem;
   text-align: center;
-  color: ${props => props.theme.colors.gray[400]};
+  color: ${(props) => props.theme.colors.gray[400]};
   font-size: 0.9rem;
 `;
 
@@ -53,14 +54,14 @@ const SocialLinks = styled.div`
   display: flex;
   gap: 1rem;
   margin-top: 1rem;
-  
+
   a {
-    color: ${props => props.theme.colors.gray[400]};
+    color: ${(props) => props.theme.colors.gray[400]};
     font-size: 1.5rem;
     transition: color 0.2s ease;
-    
+
     &:hover {
-      color: ${props => props.theme.colors.primary};
+      color: ${(props) => props.theme.colors.primary};
     }
   }
 `;
@@ -73,14 +74,22 @@ const Footer = () => {
           <FooterSection>
             <h3>BookingPro</h3>
             <p>
-              Ihre professionelle Buchungsplattform für Meeting-Räume, 
+              Ihre professionelle Buchungsplattform für Meeting-Räume,
               Beratungstermine und Event-Locations.
             </p>
             <SocialLinks>
-              <a href="#" aria-label="Facebook">📘</a>
-              <a href="#" aria-label="Twitter">🐦</a>
-              <a href="#" aria-label="LinkedIn">💼</a>
-              <a href="#" aria-label="Instagram">📷</a>
+              <a href="#" aria-label="Facebook">
+                📘
+              </a>
+              <a href="#" aria-label="Twitter">
+                🐦
+              </a>
+              <a href="#" aria-label="LinkedIn">
+                💼
+              </a>
+              <a href="#" aria-label="Instagram">
+                📷
+              </a>
             </SocialLinks>
           </FooterSection>
 
@@ -107,17 +116,29 @@ const Footer = () => {
             <h3>Kontakt</h3>
             <p>📞 +49 (0) 123 456 789</p>
             <p>📧 info@bookingpro.de</p>
-            <p>📍 Musterstraße 123<br />12345 Musterstadt</p>
+            <p>
+              📍 Musterstraße 123
+              <br />
+              12345 Musterstadt
+            </p>
             <p>⏰ Mo-Fr: 8:00 - 20:00 Uhr</p>
           </FooterSection>
         </FooterGrid>
 
         <FooterBottom>
           <p>
-            © 2024 BookingPro. Alle Rechte vorbehalten. | 
-            <a href="#" style={{ color: 'inherit', marginLeft: '0.5rem' }}>Datenschutz</a> | 
-            <a href="#" style={{ color: 'inherit', marginLeft: '0.5rem' }}>AGB</a> | 
-            <a href="#" style={{ color: 'inherit', marginLeft: '0.5rem' }}>Impressum</a>
+            © 2024 BookingPro. Alle Rechte vorbehalten. |
+            <a href="#" style={{ color: "inherit", marginLeft: "0.5rem" }}>
+              Datenschutz
+            </a>{" "}
+            |
+            <a href="#" style={{ color: "inherit", marginLeft: "0.5rem" }}>
+              AGB
+            </a>{" "}
+            |
+            <a href="#" style={{ color: "inherit", marginLeft: "0.5rem" }}>
+              Impressum
+            </a>
           </p>
         </FooterBottom>
       </FooterContent>
