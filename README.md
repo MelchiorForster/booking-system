@@ -123,17 +123,12 @@ Dieses Projekt ist unter der MIT License lizenziert - siehe [LICENSE](LICENSE) D
 
 **Ihr Name**
 
-- GitHub: [@IhrUsername](https://github.com/IhrUsername)
+- GitHub: [@MelchiorForster](https://github.com/MelchiorForster)
 - LinkedIn: [Ihr LinkedIn Profil](https://linkedin.com/in/ihr-profil)
 - Portfolio: [Ihre Website](https://ihre-website.de)
 
 ## 📞 Kontakt
 
-Haben Sie Fragen oder Anregungen? Kontaktieren Sie mich gerne!
-
-- 📧 Email: ihre.email@beispiel.de
-- 💼 LinkedIn: [Ihr LinkedIn](https://linkedin.com/in/ihr-profil)
-- 🐦 Twitter: [@IhrTwitter](https://twitter.com/IhrTwitter)
 
 ---
 
